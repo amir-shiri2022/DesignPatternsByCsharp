@@ -2,7 +2,7 @@
 using System.Linq;
 
 namespace ChainOfResponsibility.Sample1
-{
+{ 
     public class FaxMessageHandler : MessageHandler
     {
         public FaxMessageHandler(MessageHandler nextHandler) : base(nextHandler)
